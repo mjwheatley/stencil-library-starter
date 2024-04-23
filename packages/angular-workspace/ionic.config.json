@@ -1,0 +1,7 @@
+{
+  "name": "angular-workspace",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

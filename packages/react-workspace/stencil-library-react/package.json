@@ -1,0 +1,36 @@
+{
+  "name": "@mawhea/stencil-library-react",
+  "version": "0.0.1",
+  "description": "React wrapper for stencil library",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "node ./__tests__/react-library.test.js",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist",
+    "watch:stencil-library": "tsc-watch --onSuccess \"npm run build\""
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "stencil",
+    "react"
+  ],
+  "author": "mjwheatley",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@mawhea/stencil-library": "0.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.79",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5"
+  }
+}

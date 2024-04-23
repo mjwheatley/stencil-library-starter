@@ -1,0 +1,18 @@
+{
+  "name": "stencil-library-starter",
+  "version": "1.0.0",
+  "description": "A starter Stencil component library with framework wrappers and consumer applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stencil"
+  ],
+  "author": "mjwheatley",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
