@@ -1,0 +1,34 @@
+{
+  "name": "@mawhea/stencil-library-vue",
+  "version": "0.0.1",
+  "description": "Vue wrapper for stencil library",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "node ./__tests__/react-library.test.js",
+    "build": "npm run tsc",
+    "tsc": "tsc -p . --outDir ./dist",
+    "watch:stencil-library": "tsc-watch --onSuccess \"npm run build\""
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "stencil",
+    "vue"
+  ],
+  "author": "mjwheatley",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@mawhea/stencil-library": "0.0.1"
+  },
+  "devDependencies": {
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.4.5",
+    "vue": "^3.4.25"
+  }
+}
