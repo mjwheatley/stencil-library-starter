@@ -6,6 +6,9 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { defineCustomElements } from "@mawhea/stencil-library/loader";
+
+defineCustomElements()
 
 @NgModule({
   declarations: [AppComponent],

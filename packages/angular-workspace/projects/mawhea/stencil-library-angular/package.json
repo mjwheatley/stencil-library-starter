@@ -4,7 +4,7 @@
   "peerDependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0",
-    "@mawhea/stencil-library": "../../../../stencil-library"
+    "@mawhea/stencil-library": "0.0.1"
   },
   "dependencies": {
     "tslib": "^2.3.0"
