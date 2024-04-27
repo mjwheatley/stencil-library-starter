@@ -1,4 +1,9 @@
 # stencil-library-starter
+
+References:
+* https://stenciljs.com/docs/angular
+* https://ionic.io/blog/how-to-use-storybook-with-stencil
+* 
 ## Create Stencil Library and Angular wrapper and app
 ```bash
 mkdir stencil-library-starter
